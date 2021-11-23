@@ -12,6 +12,7 @@
       }
     </style>
   </head>
+  <body>
 <style>
   h1 {color:red;}
   p {color:blue;}
@@ -35,25 +36,40 @@ function myFunction() {
   var fruits = document.getElementById("myInput").value;
 
   switch(fruits) {
-    case "Banana" "banana":
+    case "Banana":
+    case "banana":
       text = "the waste goes to organic waste";
     break;
-    case "Plastic Bottle" "plastic" "plastic bottle":
+    case "Plastic Bottle": 
+    case "plastic" :
+    case "plastic bottle":
     text = "the waste goes to recyclable ";
     break;
-    case "Paper cups" "paper cups" "papercups":
+    case "Paper cups":
+    case"paper cups":
+    case"papercups":
     text = "The waste goes to recyclable";
     break;
     case "glass":
       text="the waste goes to recyclable";
     break;
-    case "coke can" "aluminium can" "juice can" "soda can":
+    case "coke can":
+    case"aluminium can":
+    case"juice can": 
+    case"soda can":
       text="the waste goes to magnetic";
     break;
-    case "medical waste" "toxic waste" "toxic" "hazardous" "oil":
+    case "medical waste":
+    case"toxic waste":
+    case"toxic":
+    case"hazardous":
+    case"oil":
       text="the waste goes to incineration";
     break;
-    case "corn" "rice" "wheat" "cereal":
+    case "corn":
+    case"rice":
+    case"wheat":
+    case"cereal":
       text="the waste goes to fermentation";
       
     break;
