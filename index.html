@@ -35,15 +35,29 @@ function myFunction() {
   var fruits = document.getElementById("myInput").value;
 
   switch(fruits) {
-    case "Banana":
-      text = "the waste goes to animal waste";
+    case "Banana" "banana":
+      text = "the waste goes to organic waste";
     break;
-    case "Plastic Bottle":
-    text = "the waste goes to degradable ";
+    case "Plastic Bottle" "plastic" "plastic bottle":
+    text = "the waste goes to recyclable ";
     break;
-    case "Paper cups":
+    case "Paper cups" "paper cups" "papercups":
     text = "The waste goes to recyclable";
     break;
+    case "glass":
+      text="the waste goes to recyclable";
+    break;
+    case "coke can" "aluminium can" "juice can" "soda can":
+      text="the waste goes to magnetic";
+    break;
+    case "medical waste" "toxic waste" "toxic" "hazardous" "oil":
+      text="the waste goes to incineration";
+    break;
+    case "corn" "rice" "wheat" "cereal":
+      text="the waste goes to fermentation";
+      
+    break;
+      
     default:
     text = "not a waste";
   }
